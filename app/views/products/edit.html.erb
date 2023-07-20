@@ -1,0 +1,6 @@
+<h1>Edit Products</h1>
+<%= form_with model: @product do |f|%>
+<%= f.text_field :name, placeholder:"enter your name"%>
+<%= f.text_field :price, placeholder:"enter price"%>
+<%= f.submit%>
+<% end %>

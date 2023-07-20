@@ -1,0 +1,6 @@
+<h1>Create Products</h1>
+<%= form_with model: @products do |f|%>
+    <%= f.text_field :name, class:"form-control",placeholder:"enter your name"%>
+    <%= f.text_field :price, class:"form-control",placeholder:"enter price"%>
+    <%= f.submit class:"btn btn-warning"%>
+<% end %>
